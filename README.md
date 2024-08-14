@@ -11,7 +11,7 @@ To investigate the relationship between air quality and MTA ridership to provide
 
 ###
 
-## Key Findings from Exploratory Data Analysis (EDA)
+### Key Findings 
 
 ## Final Thoughts
 
@@ -53,8 +53,6 @@ Establish a feedback loop through continuous monitoring of pollution and ridersh
 
 ## Future Explorations
 
-### Next Steps
-
 **Short Term Planning**
 1. Incorporate Additional Data Sources
 2. Refine and Expand Predictive Modeling
@@ -64,5 +62,5 @@ Establish a feedback loop through continuous monitoring of pollution and ridersh
 
 **Long Term Planning**
 1. Stakeholder Engagement and Implementation
-2.  Scalability and Deployment
-3.  Continuous Monitoring and Feedback Loop
+2. Scalability and Deployment
+3. Continuous Monitoring and Feedback Loop
