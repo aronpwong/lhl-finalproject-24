@@ -8,10 +8,55 @@ Understanding the connection between public transportation and the air we breath
 To investigate the relationship between air quality and MTA ridership to provide insights for improving public health and sustainable city planning.
 
 ## Project Structure
+### **Project Planning and Definition**
+**Define Objectives:** 
 
-###
+1. Clearly define the goals of the project
+2. Understand the data and computational resources needed, and set timelines for project milestones.
+
+### **Data Collection and Preparation**
+**Data Sourcing:**
+
+1. Collect relevant datasets
+2. Data Cleaning: Handle missing values, correct errors, and ensure consistency across datasets.
+3. Data Integration: Merge datasets based on common attributes to create a unified dataset for analysis.
+
+### **Exploratory Data Analysis (EDA)**
+
+**Descriptive Statistics:** Calculate summary statistics for key variables to understand their distributions and identify any anomalies.
+**Correlation Analysis:** Examine relationships between subway ridership and pollution levels using correlation coefficients.
+**Visualization:** Create scatter plots, heatmaps, and histograms to visually explore patterns and relationships in the data.
+**Outlier Detection:** Identify and analyze outliers in ridership and pollution data, which could indicate special events or anomalies.
+
+### **Modeling and Prediction**
+
+**Time Series Analysis:**
+
+**SARIMA Modeling:** Fit SARIMA models to forecast subway ridership based on historical trends and seasonality.
+
+**Machine Learning Models:**
+
+**Random Forest:** Train a Random Forest model to predict ridership based on pollution levels and other features.
+**XGBoost:** Train and compare an XGBoost model, focusing on feature importance and model accuracy.
+**Model Evaluation:** Assess model performance using metrics like MAE, RMSE, and R². 
 
 ### Key Findings 
+**Understanding the Relationship Between Ridership and Pollution:**
+The analysis revealed a moderate positive correlation between subway ridership and traffic-related pollutants like NO2 and CO. This suggests that increased pollution levels, often associated with higher traffic congestion, correspond to higher public transportation usage.
+This relationship indicates that optimizing public transportation routes to cater to areas with high pollution could potentially reduce the number of private vehicles on the road, thus lowering overall emissions.
+
+**Seasonality and Temporal Patterns in Ridership:**
+Ridership shows clear weekly and seasonal patterns, which are critical for optimizing service schedules. The SARIMA model effectively captured these patterns, providing a reliable tool for short-term forecasting.
+By aligning service levels with these patterns, NYC can optimize resource allocation, reduce operational costs, and minimize unnecessary emissions from underutilized services.
+
+**Handling Anomalies and High-Ridership Events:**
+The detection of outliers in the ridership data, corresponding to special events or holidays, underscores the need for adaptive and flexible routing strategies. These strategies ensure that the transportation system can handle sudden increases in demand without compromising service quality or increasing emissions.
+Predictive models can help in anticipating these events, allowing NYC to adjust service levels proactively.
+
+**Predictive Modeling for Informed Decision-Making:**
+The SARIMA model proved to be a valuable tool for forecasting ridership based on historical trends and seasonality, making it ideal for short-term planning and scheduling.
+The Random Forest model offered insights into the complex interactions between pollution levels, temporal factors, and ridership. This model is useful for scenarios where multiple variables need to be considered simultaneously, such as when planning routes that balance demand, service efficacy, and environmental impact.
+
 
 ## Final Thoughts
 
